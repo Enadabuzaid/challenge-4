@@ -1,0 +1,131 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+.box{
+    border: 1px solid #EEE;
+    margin: 6% 33%;
+    width: 600px;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.upper{
+    height: 150px;
+    padding: 30px;
+    
+}
+
+.upper h2{
+    font-family: sans-serif;
+    font-size: 1.4rem;
+    color: #5DB4B1;
+    text-shadow: 1px 0px 2px #b5b5b5;
+}
+
+.upper h3{
+    font-family: sans-serif;
+    font-size: 1.1rem;
+    color: #BFDF32;
+}
+
+.upper p{
+    font-size: .9rem;
+    color: #b7b7b7;
+    font-weight: 600;
+    line-height: 20px;
+    font-family: sans-serif;
+}
+
+.lower{
+    display: flex;
+}
+
+.lower .left{
+    background: #5DB4B1;
+    width: 130%;
+    padding: 30px;
+    border-radius: 0px 0px 0px 15px;
+}
+
+.lower .left h3{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: .9rem;
+    font-family: sans-serif;
+
+}
+.lower .left div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.lower .left div .price{
+    font-size: 1.7rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+
+.lower .left div .month{
+    font-size: .9rem;
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.lower .left  p{
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    color: #fff;
+    font-weight: 600;
+}
+
+.lower .left .btn{
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    width: 100%;
+    background: #BFDF32;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    text-transform: capitalize;
+    box-shadow: 0px 4px 3px #3a3a3a3d;
+    margin-top: 20px;
+}
+
+
+.lower .right{
+    padding: 10px 30px 50px;
+    background: #5fbfbdc4;
+    border-radius: 0px 0px 15px 0;
+
+}
+
+.lower .right h3{
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 33px;
+}
+
+
+.lower .right p{
+    font-weight: 400;
+    color: #fff;
+    line-height: 20px;
+    font-family: sans-serif;
+    font-size: .8rem;
+    margin-right: 40px;
+}
+
+
+
